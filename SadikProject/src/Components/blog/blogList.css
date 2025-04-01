@@ -1,0 +1,75 @@
+/* BlogList এর জন্য নির্দিষ্ট CSS */
+.blog-list-container .content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 Column Layout */
+  gap: 30px; /* Card গুলোর মাঝে gap */
+  padding: 0px; /* Left & Right Space */
+}
+
+.blog-list-container .box {
+  background: #fff;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+  margin: 10px auto;
+  max-width: 500px;
+}
+
+.blog-list-container .img {
+  position: relative;
+  width: 100%;
+}
+
+.blog-list-container .img img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.blog-list-container .blog-buttons {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.blog-list-container .edit-btn,
+.blog-list-container .delete-btn {
+  background: rgba(255, 255, 255, 0.8);
+  border: none;
+  padding: 8px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.blog-list-container .edit-btn:hover {
+  background: #25b579;
+  color: white;
+}
+
+.blog-list-container .delete-btn:hover {
+  background: #ff4d4d;
+  color: white;
+}
+
+.blog-list-container .edit-form {
+  position: fixed;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+}
+
+.blog-list-container .image-preview {
+  max-width: 100%;
+  margin-top: 10px;
+}
+
+.blog-list-container .blog-buttons button {
+  margin-right: 10px;
+}

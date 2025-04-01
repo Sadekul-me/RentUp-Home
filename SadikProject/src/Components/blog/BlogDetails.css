@@ -1,0 +1,84 @@
+/* BlogDetails.css */
+.blog-details-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background-color: #f7f7f7;
+}
+
+.blog-details {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 800px;
+  width: 100%;
+}
+
+.blog-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.blog-location {
+  font-size: 1.1rem;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+.blog-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.blog-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.blog-type {
+  font-size: 1.2rem;
+}
+
+.sale-type {
+  color: #25b579;
+  background-color: #e0f7e0;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.rent-type {
+  color: #ff9800;
+  background-color: #ffe0b2;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.blog-price p {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.blog-description {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+.blog-description h3 {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.loading {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #555;
+  padding: 50px 0;
+}
